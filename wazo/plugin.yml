@@ -1,0 +1,10 @@
+name: wazo-user-group-max
+namespace: quintana
+version: 0.0.1
+author: Sylvain Boily
+display_name: Add maximum call for group
+plugin_format_version: 1
+min_wazo_version: 23.01
+tags:
+  - community
+homepage: https://github.com/sboily/wazo-user-group-max
