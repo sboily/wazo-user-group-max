@@ -1,6 +1,10 @@
-Add the capacity to a user to receive only 2 calls maximum in a group ring.
+Enable the functionality for a user to receive a maximum of only two calls in a group ring.
 
 To install this plugin.
 
     apt install wazo-plugind-cli
     wazo-plugind-cli -c "install git https://github.com/sboily/wazo-user-group-max"
+
+To remove the plugin.
+
+    wazo-plugind-cli -c "uninstall quintana/wazo-user-group-max"
